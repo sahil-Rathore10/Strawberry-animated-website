@@ -2,11 +2,12 @@
 
 <p align="center"><img src="https://github.com/gravity-coding/strawberry/blob/main/Assets/HeroSection.jpg?raw=true" alt="project-image"></p>
 
-<p id="description">This Project is created for the students regarding their queries. This Project Includes HTML CSS JS with GSAP and Responsive Animation.</p>
+<p id="description">This Project is created for the students regarding their queries. This Project Includes HTML CSS JS with GSAP and Responsive Animation. A beautifully animated landing page using HTML, CSS, and JavaScript.  
+Inspired by modern web design trends with GSAP and Locomotive scroll.</p>
 
 <h2>🚀 Demo</h2>
 
-[https://gravity-coding.github.io/strawberry/](https://gravity-coding.github.io/strawberry/)
+
 
   
   
@@ -45,4 +46,4 @@ Technologies used in the project:
 
 <h2>💖Like my work?</h2>
 
-Follow us for more stuffs -<p>https://github.com/gravity-coding</p>
+Follow us for more stuffs -<p>https://github.com/sahil-Rathore10</p>
