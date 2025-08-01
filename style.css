@@ -1,0 +1,294 @@
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: black; */
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-between !important;
+  padding: 0vw 10vw;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #000;
+  z-index: 999999;
+}
+
+.cntr-nav {
+  width: 50%;
+  gap: 3vw;
+}
+
+.cntr-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.ri-menu-line {
+  font-size: 1.5vw;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+}
+
+.section1 {
+  background-color: hsla(0, 100%, 50%, 1);
+  background-image: radial-gradient(
+      at 79% 12%,
+      hsla(28, 100%, 74%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 84% 71%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+}
+
+.section1 h1 {
+  font-size: 13vw;
+  color: #fff;
+}
+
+.section1 img {
+  position: absolute;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#strawleaf1 {
+  left: 20%;
+  top: 20%;
+}
+
+#strawberry {
+  width: 35vw;
+}
+
+#strawbunch {
+  top: 65%;
+  left: 48%;
+  width: 20vw;
+}
+
+#strawleaf2 {
+  top: 55%;
+  left: 75%;
+  width: 10vw;
+}
+
+#strawberry01 {
+  top: 10%;
+  width: 30vw;
+}
+/* -------section-2 */
+.section2 .lft {
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.section2 .rght {
+  width: 50%;
+  height: 100%;
+  align-items: start;
+  gap: 5vh;
+  padding: 0vw 10vw 0vw 0vw;
+  /* background-color: orange; */
+}
+
+.magicpattern {
+  width: 70%;
+  height: 70%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CradialGradient id=%22b%22 r=%22100%25%22 cx=%2250%25%22 cy=%2250%25%22%3E%3Cstop offset=%220%25%22 stop-color=%22%23da49cb%22%2F%3E%3Cstop offset=%22100%25%22 stop-color=%22%23eb0e0e%22%2F%3E%3C%2FradialGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M826.5 639Q660 778 471.5 827t-265-139Q130 500 191 285T494 80.5q242 10.5 370.5 215t-38 343.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M826.5 639Q660 778 471.5 827t-265-139Q130 500 191 285T494 80.5q242 10.5 370.5 215t-38 343.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.mainHeading {
+  font-size: 3vw;
+  color: rgb(238, 87, 112);
+}
+
+.mainP {
+  font-size: 1vw;
+  color: #919191;
+  font-weight: 400;
+}
+
+.section2 .rght button {
+  padding: 1vw 2vw;
+  background-color: rgb(238, 87, 112);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Section-3 */
+
+.section3 {
+  gap: 5vw;
+  overflow: hidden;
+}
+
+.section3 .card {
+  width: 25vw;
+  height: 70vh;
+  background-color: #fff2e5;
+  padding: 1vw;
+  gap: 2vh;
+  border-radius: 20px;
+}
+
+.img-div {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  /* background-color: rebeccapurple; */
+}
+
+.img-div img {
+  position: absolute;
+  width: 100%;
+}
+
+.card .mainHeading {
+  color: #000;
+}
+
+.card button {
+  padding: 1vw 2vw;
+  background-color: rgb(245, 142, 64);
+}
+
+#resp-strawberry01,
+#resp-strawberry {
+  display: none;
+}
+
+@media (max-width: 799px) {
+  .cntr-nav {
+    display: none;
+  }
+  .ri-menu-line {
+    font-size: 7vw;
+  }
+  .section1 h1 {
+    font-size: 15vw;
+  }
+  #strawleaf1 {
+    width: 20vw;
+  }
+  #strawberry01 {
+    top: 40%;
+    width: 75vw;
+  }
+  #strawleaf2 {
+    top: 80%;
+    left: 70%;
+    width: 22vw;
+  }
+  #strawbunch {
+    width: 45vw;
+    left: 50%;
+  }
+  #strawberry {
+    width: 95vw;
+  }
+  .section2 {
+    flex-direction: column;
+    height: 120vh;
+  }
+  .section2 .lft {
+    width: 100%;
+    height: 70%;
+  }
+  .section2 .rght {
+    width: 100%;
+    height: 50%;
+    padding: 10vw;
+    gap: 2vh;
+  }
+  .mainHeading {
+    font-size: 10vw;
+  }
+  .mainP {
+    font-size: 4vw;
+  }
+  .section2 .rght button {
+    padding: 3vw 6vw;
+  }
+  .section3 {
+    flex-direction: column;
+    height: 230vh;
+  }
+  .section3 .card {
+    width: 90%;
+    height: 70vh;
+    padding: 5vw;
+  }
+  #resp-strawberry01,
+  #resp-strawberry {
+    display: initial;
+  }
+  .magicpattern {
+    width: 100%;
+  }
+}
